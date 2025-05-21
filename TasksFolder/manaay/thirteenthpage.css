@@ -1,0 +1,81 @@
+:root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+  }
+  
+  .main-container {
+    overflow: hidden;
+  }
+  
+  .main-container,
+  .main-container * {
+    box-sizing: border-box;
+  }
+  
+  input,
+  select,
+  textarea,
+  button {
+    outline: 0;
+  }
+  
+  .main-container {
+    position: relative;
+    width: 393px;
+    height: 852px;
+    margin: 0 auto;
+    font-size: 0px;
+    background: #b8d6a7;
+    overflow: hidden;
+  }
+  .text {
+    display: block;
+    position: relative;
+    height: 47px;
+    margin: 108px 0 0 29px;
+    color: #000000;
+    font-family: Rounded Mplus 1c, var(--default-font-family);
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 47px;
+    text-align: left;
+    white-space: nowrap;
+  }
+  .pic {
+    position: relative;
+    width: 286px;
+    height: 165px;
+    margin: 51px 0 0 54px;
+    background: url(https://static.codia.ai/custom_image/2025-04-09/091324/main-picture.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 1;
+  }
+  .text-2 {
+    display: block;
+    position: relative;
+    height: 51px;
+    margin: 38px 0 0 54px;
+    color: #000000;
+    font-family: Ruwudu, var(--default-font-family);
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 51px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 2;
+  }
+  .img {
+    position: relative;
+    width: 128px;
+    height: 128px;
+    margin: 112px 0 0 128px;
+    background: url(https://static.codia.ai/custom_image/2025-04-09/091324/bottom-icon.svg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 3;
+    overflow: hidden;
+  }
+  

@@ -1,0 +1,180 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #f0f0f0;
+  font-family: var(--default-font-family);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Scaling container */
+.scale-wrapper {
+  transform-origin: top left;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Main container */
+.main-container {
+  position: relative;
+  width: 393px;
+  height: 820px;
+  background: url(https://static.codia.ai/custom_image/2025-04-09/071948/main-background.png)
+    no-repeat center;
+  background-size: cover;
+  overflow: hidden;
+  border-radius: 40px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  font-size: 0px;
+}
+
+/* Typography */
+.text {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 357px;
+  height: 83px;
+  margin: 32px 0 0 18px;
+  color: #000000;
+  font-family: 'Inknut Antiqua', var(--default-font-family);
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 83px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+/* Find Workers box */
+.box {
+  position: relative;
+  width: 220px;
+  height: 64px;
+  margin: 288px 0 0 22px;
+  background: #f5f5dc;
+  z-index: 1;
+  border-radius: 1000px;
+}
+
+.img {
+  position: absolute;
+  width: 52px;
+  height: 53px;
+  top: 5px;
+  left: 168px;
+  background: url(https://static.codia.ai/custom_image/2025-04-09/071948/box-icon.svg)
+    no-repeat center;
+  background-size: cover;
+  z-index: 6;
+  overflow: hidden;
+}
+
+.text-2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 24px;
+  top: 20px;
+  left: 11px;
+  color: #2e4a21;
+  font-family: 'Inter', var(--default-font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 3;
+}
+
+/* Buy Fertilizers wrapper */
+.wrapper {
+  position: relative;
+  width: 252px;
+  height: 59px;
+  margin: 87px 0 0 107px;
+  background: #f5f5dc;
+  z-index: 2;
+  border-radius: 1000px;
+}
+
+.pic {
+  position: absolute;
+  width: 13.78%;
+  height: 45.68%;
+  top: 25.42%;
+  left: 77.78%;
+  background: url(https://static.codia.ai/custom_image/2025-04-09/071948/wrapper-icon.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 5;
+}
+
+.text-3 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 37px;
+  top: 16px;
+  left: 19px;
+  color: #2e4a21;
+  font-family: 'Inter', var(--default-font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29.045px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 4;
+}
+
+/* Profile icon */
+.img-2 {
+  position: relative;
+  width: 48px;
+  height: 53px;
+  margin: 119px 0 0 320px;
+  background: url(https://static.codia.ai/custom_image/2025-04-09/071948/profile-icon.svg)
+    no-repeat center;
+  background-size: cover;
+  z-index: 7;
+  overflow: hidden;
+  border-radius: 1000px;
+}
+
+/* Input and form element reset */
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.scale-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* full viewport height */
+  width: 100vw;  /* full viewport width */
+  transform-origin: top center;
+  margin-top: 125px;
+}

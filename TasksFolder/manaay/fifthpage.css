@@ -1,0 +1,114 @@
+:root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+  }
+  
+  .main-container {
+    overflow: hidden;
+  }
+  
+  .main-container,
+  .main-container * {
+    box-sizing: border-box;
+  }
+  
+  input,
+  select,
+  textarea,
+  button {
+    outline: 0;
+  }
+  
+  .main-container {
+    position: relative;
+    width: 393px;
+    height: 820px;
+    margin: 0 auto;
+    background: #b8d6a7;
+    overflow: hidden;
+    margin: 183px auto 0 auto; /* top: 60px, horizontal centered */
+    border-radius: 40px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+  .arrow-left {
+    position: relative;
+    width: 48px;
+    height: 48px;
+    margin: 11px 0 0 331px;
+    background: url(https://static.codia.ai/custom_image/2025-04-09/074113/arrow-left-icon.svg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 4;
+    overflow: hidden;
+  }
+  .empty {
+    position: relative;
+    width: 181px;
+    height: 181px;
+    margin: 75px 0 0 107px;
+    background: url(https://static.codia.ai/custom_image/2025-04-09/074113/empty-placeholder.png)
+      no-repeat center;
+    background-size: cover;
+  }
+  .npk-fertilizer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    width: 345px;
+    height: 56px;
+    margin: 55px 0 0 24px;
+    color: #000000;
+    font-family: Roboto, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28.125px;
+    text-align: left;
+    z-index: 1;
+  }
+  .shopping-cart {
+    position: relative;
+    width: 118px;
+    height: 119px;
+    margin: 175px 0 0 143px;
+    background: url(https://static.codia.ai/custom_image/2025-04-09/074113/shopping-cart-icon.svg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 2;
+    overflow: hidden;
+  }
+  .pic-3 {
+    position: absolute;
+    width: 118px;
+    height: 119px;
+    top: 0;
+    left: 0;
+    background: url(https://static.codia.ai/custom_image/2025-04-09/074113/product-image.svg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 3;
+    overflow: hidden;
+  }
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .scale-wrapper {
+    transform-origin: top left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
